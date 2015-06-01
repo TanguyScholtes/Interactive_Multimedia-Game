@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+@import url(http://fonts.googleapis.com/css?family=Play:700,400);
+
+html{
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+body{
+	background: url('img/alien_neon_tech_1_by_psyolopher-d5wp9q6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(14,14,14, 1);
+}
+
+header h1{
+    margin-bottom: 0.125em;
+}
+
+header p{
+    margin-top: 0.25em;
+}
+
+h2{
+    font-family: "Play", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+	text-align: center;
+}
+
+header{
+	width: 80%;
+	margin: 0 auto 3em auto;
+	text-align: center;
+}
+
+div{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0 1em 2em 1em;
+	border-bottom: 1px solid black;
+}
+
+div:last-child{
+	border-bottom: none;
+}
+
+canvas{
+	margin: 28px auto;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	display: block;
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.4);
+}
+
+footer{
+	width: 80%;
+	margin: 3em auto 0 auto;
+	text-align: center;
+}
+
+::selection{
+	background: transparent;
+}
